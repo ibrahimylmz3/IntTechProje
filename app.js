@@ -5,7 +5,7 @@ const hbs = require('hbs');
 const bodyParser = require('body-parser');
 const mysql = require('mysql');
 const app = express();
-const port = 81;
+const port = process.env.PORT || 81;
 
 
 //veritabanı bağlantısı
@@ -35,6 +35,13 @@ app.get('/index', (req, res) => {
 //login
 app.get('/login', (req, res) => {
     res.render('login', {
+        
+    });
+});
+
+//login
+app.get('/register', (req, res) => {
+    res.render('register', {
         
     });
 });
@@ -70,6 +77,22 @@ app.post('/auth', function(req, res) {
 	}
 });
 
+app.post('/register_auth', function(req, res){
+	var username = req.body.username;
+	var password = req.body.password;
+	var email = req.body.email;
+			let	kontrol = "select * from login where username = "+ username +"";
+			if(kontrol == 1){
+				res.send("böyle bir kullanıcı var");
+				}
+				else{
+					var sql = "INSERT INTO login(username,password,email) VALUES ('" + username + "','" + password + "','" + email + "')";
+					  var query = conn.query(sql, function(err, result) {
+						 console.log("kullanıcı oluşturuldu");
+						 res.render('register', {});
+					  });
+					}
+			});
 
 
 

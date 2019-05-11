@@ -10,7 +10,7 @@
     padding: 20px 0 20px 0;
 }
 .login-form input[type="password"],
-.login-form input[type="text"] {
+.login-form input[type="text"],[type="email"] {
     width: 100%;
     padding: 15px;
     border: 1px solid #dddddd;
