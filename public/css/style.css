@@ -31,13 +31,13 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    font-style: normal;
 }
 .container{
     margin: 0 auto;
     width: 824px;
     background-color: #ccc;
     border: 1px solid #000;
-
 }
 
 .header{
@@ -48,10 +48,162 @@
 
 .center-area{
     width: 600px;
-    height: 400px;
+    height: 500px;
     margin: 0 auto;
     background-color: #005f5f;
     border: 1px solid #444;
+}
+
+.home-button{
+    width:  200px;
+    margin: 25px auto;
+    background-color: #fff;
+    text-align: center;
+}
+.home-button > a > button{
+    width: 200px;
+    height: 30px !important;
+}
+.home-text{
+    height: 25px;
+    float: left;  
+    margin-top: 50px;
+    margin-left: 50px;  
+}
+.home-text-left{
+    width:  200px;
+    float: left;
+    margin-left: 25px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    
+}
+.home-text-right{
+    width:  200px;
+    float: right;
+    margin-left: 25px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.home-oval{
+    height: 25px;
+    float: left;  
+    margin-top: 25px;
+    margin-left: 50px;  
+}
+.home-oval-left{
+    width:  200px;
+    height: 200px;
+    float: left;
+    border-radius: 100%;
+    margin-left: 25px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    
+}
+.home-oval-left  > a > img{
+    width: 100%;
+    height: 100%;
+}
+.home-oval-right{
+    width:  200px;
+    height: 200px;
+    border-radius: 100%;
+    float: right;
+    margin-left: 25px;
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid #ccc;
+    overflow: hidden;
+}
+.home-oval-right > a > img{
+    width: 100%;
+    height: 100%;
+}
+.center-area-1{
+    margin:25px auto;
+    width: 500px;
+    height: 150px;
+    background-color: #fff;
+}
+
+.area-1-left{
+    margin-top: 25px;
+    margin-left: 25px;
+    float: left;
+}
+.area-1-input-1{
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+.area-1-input-1 > input[type="text"]{
+    height: 40px;
+    float: left;
+}
+.area-1-input-2{
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+.area-1-input-2 > input[type="text"]{
+    height: 40px;
+    float: left;
+}
+
+.area-1-right{
+    margin-top: 25px;
+    margin-right: 120px;
+    float: right;
+}
+.area-1-select{
+    width: 100px;
+    height: 40px;
+    float: left;
+    margin-bottom: 10px;
+}
+.area-1-select > select{
+    width: 250px;
+    height: 46px;
+    float: right;
+    margin-right: -100px;
+    margin-bottom: 10px;
+}
+
+.center-area-2{
+    margin:25px auto;
+    width: 500px;
+    height: 25px;
+    background-color: #fff;
+}
+.center-area-2 > input[type="text"]{
+    width: 100%;
+    height: 100%;
+}
+.center-area-3{
+    margin:25px auto;
+    width: 500px;
+    height: 150px;
+    background-color: #fff;
+}
+.center-area-3 > textarea{
+    width: 100%;
+    height: 100%;
+}
+.center-area-4{
+    margin:25px auto;
+    width: 500px;
+    height: 25px;
+    background-color: #fff;
+}
+.center-area-4 > button[type="submit"]{
+    width: 505px;
+    height: 100%;
 }
 .clear{
     clear: both;
@@ -63,9 +215,10 @@
     border-top: 1px solid #000;
     text-align: center;
     text-decoration: none;
+    color: #fff;
 }
 
-/* header menü */
+/* header menu */
 .nav ul {
     list-style: none;
     background-color: #444;

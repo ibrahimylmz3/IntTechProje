@@ -45,11 +45,28 @@ app.get('/register', (req, res) => {
         
     });
 });
-app.get('/home', (req, res) => {
-    res.render('home', {
+
+//kullanıcı anasayfa
+app.get('/user-home', (req, res) => {
+    res.render('user-home', {
         
     });
 });
+
+//hizmet olustur 
+app.get('/hizmet-olustur', (req, res) => {
+    res.render('hizmet-olustur', {
+        
+    });
+});
+
+//sorun olustur
+app.get('/sorun-olustur', (req, res) => {
+    res.render('sorun-olustur', {
+        
+    });
+});
+
 
 app.use(session({
 	secret: 'secret',
@@ -70,7 +87,7 @@ app.post('/auth', function(req, res) {
 			if (results.length > 0) {
 				req.session.loggedin = true;
 				req.session.username = username;
-				res.redirect('/index');
+				res.redirect('/user-home');
 			} else {
 				res.send('Böyle bir kullanıcı adı yok gibi');
 			}			
