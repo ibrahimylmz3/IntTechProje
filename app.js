@@ -45,6 +45,11 @@ app.get('/register', (req, res) => {
         
     });
 });
+app.get('/home', (req, res) => {
+    res.render('home', {
+        
+    });
+});
 
 app.use(session({
 	secret: 'secret',
