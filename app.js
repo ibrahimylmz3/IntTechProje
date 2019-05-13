@@ -81,6 +81,63 @@ app.get('/talebimi-goruntule', (req, res) => {
     });
 });
 
+//istek ayrintisi
+app.get('/istek-ayrintisi', (req, res) => {
+    res.render('istek-ayrintisi', {
+        
+    });
+});
+
+//teknisyen home
+app.get('/teknisyen-home', (req, res) => {
+    res.render('teknisyen-home', {
+        
+    });
+});
+
+//beklemede olan talepler
+app.get('/beklemede-olan-taleplerim', (req, res) => {
+    res.render('beklemede-olan-taleplerim', {
+        
+    });
+});
+
+//gunluk yapilmasi gereken taleplerim
+app.get('/gunluk-yapilmasi-gereken-taleplerim', (req, res) => {
+    res.render('gunluk-yapilmasi-gereken-taleplerim', {
+        
+    });
+});
+
+//suresi dolan taleplerim
+app.get('/suresi-dolan-taleplerim', (req, res) => {
+    res.render('suresi-dolan-taleplerim', {
+        
+    });
+});
+
+//suresi dolan taleplerim
+app.get('/hizmet-talepleri', (req, res) => {
+    res.render('hizmet-talepleri', {
+        
+    });
+});
+
+//onay bekleyen talepler
+app.get('/onay-bekleyen-talepler', (req, res) => {
+    res.render('onay-bekleyen-talepler', {
+        
+    });
+});
+
+//arama sonuclari
+app.get('/arama-sonuclari', (req, res) => {
+    res.render('arama-sonuclari', {
+        
+    });
+});
+
+
 app.use(session({
 	secret: 'secret',
 	resave: true,

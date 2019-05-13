@@ -214,6 +214,16 @@ a:active {
     width: 100%;
     height: 100%;
 }
+.center-area-taleplerimi-goruntule{
+    margin:25px auto;
+    width: 500px;
+    height: 75px;
+    background-color: #fff;
+}
+.center-area-taleplerimi-goruntule > textarea{
+    width: 100%;
+    height: 100%;
+}
 .center-area-4{
     margin:25px auto;
     width: 500px;
@@ -281,6 +291,28 @@ a:active {
 
 .clear{
     clear: both;
+}
+
+.center-area-title{
+    margin-left: 250px;
+    margin-top: 20px;
+}
+.center-area-1-title{
+    margin-left: 170px;
+    margin-top: 0px;
+    padding-top: 10px;
+}
+.user-info-area{
+    margin-top:30px;
+    height: 50px;
+    float: left;
+    width: 100%;
+}
+.user-info-area > input[type="text"]{
+    height: 40px;
+    width: 155px;
+    margin-left: 3px;
+    margin-top: 2px;
 }
 
 .footer{
