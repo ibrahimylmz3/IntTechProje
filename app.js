@@ -67,6 +67,19 @@ app.get('/sorun-olustur', (req, res) => {
     });
 });
 
+//taleplerim
+app.get('/taleplerim', (req, res) => {
+    res.render('taleplerim', {
+        
+    });
+});
+
+//talebimi goruntule
+app.get('/talebimi-goruntule', (req, res) => {
+    res.render('talebimi-goruntule', {
+        
+    });
+});
 
 app.use(session({
 	secret: 'secret',
