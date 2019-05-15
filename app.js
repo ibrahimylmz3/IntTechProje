@@ -137,6 +137,42 @@ app.get('/arama-sonuclari', (req, res) => {
     });
 });
 
+//admin home
+app.get('/admin-home', (req, res) => {
+    res.render('admin-home', {
+        
+    });
+});
+
+//kategori ayarlari
+app.get('/kategori-ayarlari', (req, res) => {
+    res.render('kategori-ayarlari', {
+        
+    });
+});
+
+//raporlar
+app.get('/raporlar', (req, res) => {
+    res.render('raporlar', {
+        
+    });
+});
+
+
+//katagori listele
+app.get('/katagori-listele', (req, res) => {
+    res.render('katagori-listele', {
+        
+    });
+});
+
+//kullanici ekle
+app.get('/kullanici-ekle', (req, res) => {
+    res.render('kullanici-ekle', {
+        
+    });
+});
+
 
 app.use(session({
 	secret: 'secret',

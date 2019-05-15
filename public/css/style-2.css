@@ -172,3 +172,59 @@
   margin-right: 10px; 
   margin-left: 8px;
 }
+.adminana{
+  width: 170px;
+  height: 50px;
+  margin-top: 5px;
+background-color: #fff;
+margin-left: 10px;
+text-align: center;
+}
+.adminana1{
+  width:400px;
+  height: 270px;
+  float: right;
+background-color: #fff;
+margin-left: 10px;
+margin-top: -269px;
+
+}
+.ft{
+text-align: center;
+margin-top: 10PX;
+
+}
+.adminana> a:link {text-decoration: none;}
+.adminana> a:visited {text-decoration: none;}
+.adminana> a:hover {text-decoration: none;}
+.adminana> a:active {text-decoration: none;}
+.klc{
+  margin-top: 30PX;
+  width: 90%;
+  margin-left: 45px;
+}
+.btn{
+  margin-left: 15px;
+  width: 90%;
+  
+}
+.cex{
+  margin-left: 35px;
+  width: 90%;
+  margin-bottom: 15px;
+  
+}
+.box2{
+  width: 74%;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 7.5%;
+  background-color: #dddddd;
+  text-align:center;
+  margin-bottom: 10px;
+}
+.kml{
+  width: 90%;
+  margin-left: 16px;
+
+}
