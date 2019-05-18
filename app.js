@@ -243,6 +243,94 @@ app.get('/kullanici-raporlari', (req, res) => {
     });
 });
 
+//kategori-olustur
+app.get('/kategori-olustur', (req, res) => {
+    res.render('kategori-olustur', {
+
+    });
+});
+
+//kategori-duzenle
+app.get('/kategori-duzenle', (req, res) => {
+    res.render('kategori-duzenle', {
+
+    });
+});
+
+//sil
+app.get('/sil', (req, res) => {
+    res.render('sil', {
+
+    });
+});
+
+//site-ayarlari
+app.get('/site-ayarlari', (req, res) => {
+    res.render('site-ayarlari', {
+
+    });
+});
+
+//site-domain-ayarlari
+app.get('/site-domain-ayarlari', (req, res) => {
+    res.render('site-domain-ayarlari', {
+
+    });
+});
+
+//site-mail-ayarlari
+app.get('/site-mail-ayarlari', (req, res) => {
+    res.render('site-mail-ayarlari', {
+
+    });
+});
+
+//site-logo-ayarlari-get
+app.get('/site-logo-ayarlari', (req, res) => {
+    res.render('site-logo-ayarlari', {
+
+    });
+});
+
+//site-logo-ayarlari-post
+app.post('/site-logo-ayarlari', (req, res) => {
+    res.render('site-logo-ayarlari', {
+
+    });
+});
+
+//site-meta-ayarlari-get
+app.get('/site-meta-ayarlari', (req, res) => {
+    res.render('site-meta-ayarlari', {
+
+    });
+});
+
+//site-meta-ayarlari-post
+app.post('/site-meta-ayarlari', (req, res) => {
+    res.render('site-meta-ayarlari', {
+
+    });
+});
+
+
+app.post('/kategori-auth', (req, res) => {
+    var kategoriAdi = req.body.kategoriAdi;
+    var kategoriAciklamasi = req.body.kategoriAciklamasi;
+    var kategoriBaglantisi = req.body.kategoriBaglantisi;
+            var sql = "INSERT INTO kategori(kategoriAdi,kategoriAciklamasi,kategoriBaglantisi) VALUES ('" + kategoriAdi + "','" + kategoriAciklamasi + "','" + kategoriBaglantisi + "')";
+              var query = conn.query(sql, function(err, result) {
+                 console.log("Kategori oluşturuldu");
+                 res.render('kategori-olustur', {});
+              });
+})
+
+//kategori-duzenle
+app.get('/kategori-listele', (req, res) => {
+    res.render('kategori-listele', {
+
+    });
+});
 
 app.use(session({
 	secret: 'secret',
@@ -290,7 +378,7 @@ app.post('/register_auth', function(req, res){
 						 res.render('register', {});
 					  });
 					}
-			});
+});
 
 
 

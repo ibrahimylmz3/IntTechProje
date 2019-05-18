@@ -341,6 +341,59 @@ a:active {
     padding-left: 5px;
 }
 
+.global-pages-div-logo{
+    width: 385px;
+    background-color: #aaa;
+    margin:5px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    padding-top:20px;
+    padding-left: 5px;
+}
+.site-logo-favicon{
+    width: 385px;
+    background-color: #aaa;
+    margin:5px;
+    height: 120px;
+    float: left;
+    text-align: left;
+    overflow: hidden;
+}
+.site-logo-favicon-ayarlari{
+    width: 185px;
+    height: 120px;
+    float: left;
+    margin-left: 5px;
+}
+
+.site-logo-favicon-ayarlari > img{
+    width: 100%;
+    height: 100%;
+}
+.global-pages-input{
+    width: 385px;
+    background-color: #aaa;
+    margin:5px;
+    height: 40px;
+    float: left;
+    text-align: left;
+}
+.global-pages-input >  input[type="text"]{
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-input >  button[type="submit"]{
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-input >  input[type="url"]{
+    width: 100%;
+    height: 100%;
+}
+
 .global-pages-div-right{
     float:right;
     margin-right: 0px;
@@ -361,13 +414,31 @@ a:active {
     border: 1px solid #ccc;
     width:100px;
     height:58px;
-    
 }
 
 .global-pages-div-img > a > img{
     width: 100%;
     height: 100%;
     
+}
+
+.global-pages-div-img-kategori{
+    float:right;
+    margin-right: 0px;
+    margin-top: -20px;
+    border: 1px solid #ccc;
+    width:50px;
+    height:58px;
+}
+.global-pages-div-img-kategori > a > img{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.center-text{
+    text-align: center;
+    padding-top:200px
 }
 
 .footer{

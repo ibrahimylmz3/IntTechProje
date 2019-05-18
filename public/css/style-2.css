@@ -19,6 +19,12 @@
     
 }
 
+.global-pages{
+  width: 400px;
+  background-color: #fff;
+  margin:0px auto;
+  height: 500px;
+}
 
 
 *{
@@ -161,11 +167,13 @@
 .center-area > a:active {text-decoration: none;}
 
 .ist{
-  width: 80%;
-  padding: 15px;
-  margin-top: 15px;
-  margin-left: 7.5%;
-  background-color: #dddddd;
+  width: 390px;
+    background-color: #aaa;
+    margin:5px;
+    height: 60px;
+    float: left;
+    text-align: center;
+    padding-top:40px;
 }
 .cop{
   float: right;

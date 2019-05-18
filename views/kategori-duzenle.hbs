@@ -6,24 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/fontawesome/css/all.css">
-    <title>Kategori Ayarları</title>
+    <title>Kategori Düzenle</title>
 </head>
 <body>
     <div class="container">
       <div class="header">
           <div class="nav">
             <ul>
-                <li class="home"><a href="/site-ayarlari">Ayarlara geri dön</a></li>
+                <li class="home"><a href="/kategori-ayarlari">Ayarlar geri dön</a></li>
                 <li class="tutorials"><a href="/admin-home">Site Logo</a></li>
                 <li class="about"><a href="/cikis">Çıkış Yap</a></li>
             </ul>
          </div>
          <div class="center-area">
             <div class="global-pages">
-                <a href="/kategori-ayarlari"><div class="global-pages-title">Kategori Ayarları</div></a>
-                <div class="global-pages-div"><a href="/kategori-olustur">Kategori Oluştur</a></div>
-              <div class="global-pages-div"><a href="/kategori-listele">Kategori Listele</a></div>
-              </div>
+                <a href="/kategori-duzenle"><div class="global-pages-title">Kategori Düzenle</div></a>
+                <form action="" method="POST">
+                <a href="#"><div class="global-pages-input"><input type="text" name="kategoriAdi" placeholder="Kategori Adı" required></div></a>
+                <a href="#"><div class="global-pages-input"><input type="text" name="kategoriAciklamasi" placeholder="Kategori Açıklaması" required></div></a>
+                <a href="#"><div class="global-pages-input"><input type="url" name="kategoriBaglantisi" placeholder="Kategori Bağlantısı" required></div></a>
+                <a href="#"><div class="global-pages-input"><button type="submit">Düzenle</button></div></a>
+                </form>
             </div>
          </div>
           <div class="clear"></div>
