@@ -173,6 +173,76 @@ app.get('/kullanici-ekle', (req, res) => {
     });
 });
 
+//tum envanterler
+app.get('/tum-envanterler', (req, res) => {
+    res.render('tum-envanterler', {
+        
+    });
+});
+
+//tum kullanıcılar
+app.get('/tum-kullanicilar', (req, res) => {
+    res.render('tum-kullanicilar', {
+        
+    });
+});
+
+//kullanimda-olan-envanterler
+app.get('/kullanimda-olan-envanterler', (req, res) => {
+    res.render('kullanimda-olan-envanterler', {
+        
+    });
+});
+
+//en-cok-istek-kapatan-teknisyenler
+app.get('/en-cok-istek-kapatan-teknisyenler', (req, res) => {
+    res.render('en-cok-istek-kapatan-teknisyenler', {
+        
+    });
+});
+
+//online olan kullanıcılar
+app.get('/online-kullanicilar', (req, res) => {
+    res.render('online-kullanicilar', {
+        
+    });
+});
+
+//stok envanterler
+app.get('/stok-envanterler', (req, res) => {
+    res.render('stok-envanterler', {
+        
+    });
+});
+
+//tum-teknisyenler
+app.get('/tum-teknisyenler', (req, res) => {
+    res.render('tum-teknisyenler', {
+        
+    });
+});
+
+//teknisyen-raporlari
+app.get('/teknisyen-raporlari', (req, res) => {
+    res.render('teknisyen-raporlari', {
+        
+    });
+});
+
+//envanter-raporlari
+app.get('/envanter-raporlari', (req, res) => {
+    res.render('envanter-raporlari', {
+        
+    });
+});
+
+//kullanici-raporlari
+app.get('/kullanici-raporlari', (req, res) => {
+    res.render('kullanici-raporlari', {
+        
+    });
+});
+
 
 app.use(session({
 	secret: 'secret',
