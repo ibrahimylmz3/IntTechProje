@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.css">
+    <title>Envanter Ekle</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="nav">
+                <ul>
+                    <li class="home"><a href="/envanterler">Envanterlere geri dön</a></li>
+                    <li class="tutorials"><a href="/admin-home">Site Logo</a></li>
+                    <li class="about"><a href="/cikis">Çıkış Yap</a></li>
+                </ul>
+            </div>
+            <div class="center-area">
+                <div class="global-pages">
+                    <div class="envanter-goruntule-area-1">
+                        <div class="envanter-goruntule-area-1-left"><img src="assets/img/upload.jpg" alt=""></div>
+                        <div class="envanter-goruntule-area-1-right">
+                            <form action="/envanter-ekle" method="POST">
+                                <input type="text" placeholder="Envanter Adı">
+                                <button type="submit">Aygıt Adı</button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="envanter-goruntule-area-2">
+                        <div class="envanter-goruntule-area-2-title">Aygıt Ayrıntıları</div>
+                        <form action="/envanter-ekle" method="POST">
+                            <div class="envanter-goruntule-area-2-info"><input type="text" placeholder="Cihaz Adı">
+                            </div>
+                            <div class="envanter-goruntule-area-2-info"><input type="text"
+                                    placeholder="Cihaz Seri Numarası"></div>
+                            <div class="envanter-goruntule-area-2-info"><input type="text"
+                                    placeholder="Cihaz Model Numarası"></div>
+                            <div class="envanter-goruntule-area-2-info"><input type="text" placeholder="Cihaz Türü">
+                            </div>
+                            <div class="envanter-goruntule-area-2-info"><input type="text"
+                                    placeholder="Cihaz Mac Adresi">
+                            </div>
+                            <div class="envanter-goruntule-area-2-info">
+                                <button type="submit">Envanter Ekle</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="footer">&copy; Copyrights - 2019 | IntTechProje </div>
+    </div>
+    </div>
+</body>
+
+</html>

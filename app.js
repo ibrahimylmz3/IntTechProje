@@ -355,6 +355,35 @@ app.get('/404', (req, res) => {
     });
 });
 
+//envanterler
+app.get('/envanterler', (req, res) => {
+    res.render('envanterler', {
+
+    });
+});
+
+//envanter goruntule
+app.get('/envanter-goruntule', (req, res) => {
+    res.render('envanter-goruntule', {
+
+    });
+});
+
+//envanter ekle
+app.get('/envanter-ekle', (req, res) => {
+    res.render('envanter-ekle', {
+
+    });
+});
+
+//envanter duzenle
+app.get('/envanter-duzenle', (req, res) => {
+    res.render('envanter-duzenle', {
+
+    });
+});
+
+
 app.post('/kategori-auth', (req, res) => {
     var kategoriAdi = req.body.kategoriAdi;
     var kategoriAciklamasi = req.body.kategoriAciklamasi;
