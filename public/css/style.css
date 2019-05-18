@@ -3,20 +3,24 @@
     margin: 0 auto;
     font-family: Tahoma, Geneva, sans-serif;
 }
+
 .login-form h1 {
     text-align: center;
     color: #4d4d4d;
     font-size: 24px;
     padding: 20px 0 20px 0;
 }
+
 .login-form input[type="password"],
-.login-form input[type="text"],[type="email"] {
+.login-form input[type="text"],
+[type="email"] {
     width: 100%;
     padding: 15px;
     border: 1px solid #dddddd;
     margin-bottom: 15px;
-    box-sizing:border-box;
+    box-sizing: border-box;
 }
+
 .login-form input[type="submit"] {
     width: 100%;
     padding: 15px;
@@ -28,37 +32,42 @@
     color: #ffffff;
 }
 
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-style: normal;
 }
+
 a:link {
     text-decoration: none;
 }
+
 a:visited {
     text-decoration: none;
 }
+
 a:hover {
     text-decoration: none;
 }
+
 a:active {
     text-decoration: none;
 }
-.container{
+
+.container {
     margin: 0 auto;
     width: 824px;
     background-color: #ccc;
     border: 1px solid #000;
 }
 
-.header{
+.header {
     background-color: #4d4d4d;
     border-bottom: 1px solid #000;
     border-top: 1px solid #000;
 }
 
-.center-area{
+.center-area {
     width: 600px;
     height: 500px;
     margin: 0 auto;
@@ -66,47 +75,52 @@ a:active {
     border: 1px solid #444;
 }
 
-.home-button{
-    width:  200px;
+.home-button {
+    width: 200px;
     margin: 25px auto;
     background-color: #fff;
     text-align: center;
 }
-.home-button > a > button{
+
+.home-button>a>button {
     width: 200px;
     height: 30px !important;
 }
-.home-text{
+
+.home-text {
     height: 25px;
-    float: left;  
+    float: left;
     margin-top: 50px;
-    margin-left: 50px;  
+    margin-left: 50px;
 }
-.home-text-left{
-    width:  200px;
+
+.home-text-left {
+    width: 200px;
     float: left;
     margin-left: 25px;
     background-color: #fff;
     text-align: center;
     border: 1px solid #ccc;
-    
 }
-.home-text-right{
-    width:  200px;
+
+.home-text-right {
+    width: 200px;
     float: right;
     margin-left: 25px;
     background-color: #fff;
     text-align: center;
     border: 1px solid #ccc;
 }
-.home-oval{
+
+.home-oval {
     height: 25px;
-    float: left;  
+    float: left;
     margin-top: 25px;
-    margin-left: 50px;  
+    margin-left: 50px;
 }
-.home-oval-left{
-    width:  200px;
+
+.home-oval-left {
+    width: 200px;
     height: 200px;
     float: left;
     border-radius: 100%;
@@ -115,14 +129,15 @@ a:active {
     text-align: center;
     border: 1px solid #ccc;
     overflow: hidden;
-    
 }
-.home-oval-left  > a > img{
+
+.home-oval-left>a>img {
     width: 100%;
     height: 100%;
 }
-.home-oval-right{
-    width:  200px;
+
+.home-oval-right {
+    width: 200px;
     height: 200px;
     border-radius: 100%;
     float: right;
@@ -132,54 +147,62 @@ a:active {
     border: 1px solid #ccc;
     overflow: hidden;
 }
-.home-oval-right > a > img{
+
+.home-oval-right>a>img {
     width: 100%;
     height: 100%;
 }
-.center-area-1{
-    margin:25px auto;
+
+.center-area-1 {
+    margin: 25px auto;
     width: 500px;
     height: 150px;
     background-color: #fff;
 }
 
-.area-1-left{
+.area-1-left {
     margin-top: 25px;
     margin-left: 25px;
     float: left;
 }
-.area-1-input-1{
+
+.area-1-input-1 {
     width: 100px;
     height: 40px;
     float: left;
     margin-bottom: 10px;
 }
-.area-1-input-1 > input[type="text"]{
-    height: 40px;
-    float: left;
-}
-.area-1-input-2{
-    width: 100px;
-    height: 40px;
-    float: left;
-}
-.area-1-input-2 > input[type="text"]{
+
+.area-1-input-1>input[type="text"] {
     height: 40px;
     float: left;
 }
 
-.area-1-right{
+.area-1-input-2 {
+    width: 100px;
+    height: 40px;
+    float: left;
+}
+
+.area-1-input-2>input[type="text"] {
+    height: 40px;
+    float: left;
+}
+
+.area-1-right {
     margin-top: 25px;
     margin-right: 120px;
     float: right;
 }
-.area-1-select{
+
+.area-1-select {
     width: 100px;
     height: 40px;
     float: left;
     margin-bottom: 10px;
 }
-.area-1-select > select{
+
+.area-1-select>select {
     width: 250px;
     height: 46px;
     float: right;
@@ -187,261 +210,361 @@ a:active {
     margin-bottom: 10px;
 }
 
-.center-area-talep{
-    margin:0px auto;
+.center-area-talep {
+    margin: 0px auto;
     width: 450px;
     height: 500px;
     background-color: #fff;
 }
 
-.center-area-2{
-    margin:25px auto;
+.center-area-2 {
+    margin: 25px auto;
     width: 500px;
     height: 25px;
     background-color: #fff;
 }
-.center-area-2 > input[type="text"]{
+
+.center-area-2>input[type="text"] {
     width: 100%;
     height: 100%;
 }
-.center-area-3{
-    margin:25px auto;
+
+.center-area-3 {
+    margin: 25px auto;
     width: 500px;
     height: 150px;
     background-color: #fff;
 }
-.center-area-3 > textarea{
+
+.center-area-3>textarea {
     width: 100%;
     height: 100%;
 }
-.center-area-taleplerimi-goruntule{
-    margin:25px auto;
+
+.center-area-taleplerimi-goruntule {
+    margin: 25px auto;
     width: 500px;
     height: 75px;
     background-color: #fff;
 }
-.center-area-taleplerimi-goruntule > textarea{
+
+.center-area-taleplerimi-goruntule>textarea {
     width: 100%;
     height: 100%;
 }
-.center-area-4{
-    margin:25px auto;
+
+.center-area-4 {
+    margin: 25px auto;
     width: 500px;
     height: 25px;
     background-color: #fff;
 }
-.center-area-4 > button[type="submit"]{
+
+.center-area-4>button[type="submit"] {
     width: 505px;
     height: 100%;
 }
 
-.area-talep-title{
-    width:448px;
-    height:50px;
+.area-talep-title {
+    width: 448px;
+    height: 50px;
     border: 1px solid #000;
     color: #000;
     text-align: center;
-    padding-top:30px;
+    padding-top: 30px;
 }
 
-.area-talepler{
-    width:448px;
-    height:80px;
+.area-talepler {
+    width: 448px;
+    height: 80px;
     background-color: #fff;
     border: 1px solid #000;
 }
 
-.area-talepler-text{
-    width:170px;
+.area-talepler-text {
+    width: 170px;
     height: 16px;
     background-color: #fff;
-    color:#000;
-    margin-top:30px;
+    color: #000;
+    margin-top: 30px;
     margin-left: 20px;
 }
 
+.area-talep-title>a {
+    color: #000;
+}
 
-.area-talep-title > a {
+.area-talepler-text>a {
     color: #000;
 }
-.area-talepler-text > a{
-    color: #000;
-}
-.area-talepler-type{
+
+.area-talepler-type {
     height: 16px;
     background-color: #fff;
-    color:#000;
-    margin-left:200px;
-    margin-top:-16px;
+    color: #000;
+    margin-left: 200px;
+    margin-top: -16px;
     float: left;
 }
-.area-talepler-edit{
+
+.area-talepler-edit {
     background-color: #fff;
-    color:#000;
-    margin-right:15px;;
-    margin-top:-38px;
+    color: #000;
+    margin-right: 15px;
+    ;
+    margin-top: -38px;
     float: right;
     overflow: hidden;
     height: 65px;
 }
-.area-talepler-edit > a > img{
+
+.area-talepler-edit>a>img {
     width: 100%;
     height: 100%;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.center-area-title{
+.center-area-title {
     margin-left: 250px;
     margin-top: 20px;
 }
-.center-area-1-title{
+
+.center-area-1-title {
     margin-left: 170px;
     margin-top: 0px;
     padding-top: 10px;
 }
-.user-info-area{
-    margin-top:30px;
+
+.user-info-area {
+    margin-top: 30px;
     height: 50px;
     float: left;
     width: 100%;
 }
-.user-info-area > input[type="text"]{
+
+.user-info-area>input[type="text"] {
     height: 40px;
     width: 155px;
     margin-left: 3px;
     margin-top: 2px;
 }
 
-.global-pages{
+.global-pages {
     width: 400px;
     background-color: #fff;
-    margin:0px auto;
+    margin: 0px auto;
     height: 500px;
 }
-.global-pages-title{
+
+.global-pages-title {
     width: 390px;
     background-color: #aaa;
-    margin:5px;
+    margin: 5px;
     height: 60px;
     float: left;
     text-align: center;
-    padding-top:40px;
+    padding-top: 40px;
 }
-.global-pages-div{
+
+.global-pages-div {
     width: 385px;
     background-color: #aaa;
-    margin:5px;
+    margin: 5px;
     height: 40px;
     float: left;
     text-align: left;
-    padding-top:20px;
+    padding-top: 20px;
     padding-left: 5px;
 }
 
-.global-pages-div-logo{
+.global-pages-div-logo {
     width: 385px;
     background-color: #aaa;
-    margin:5px;
+    margin: 5px;
     height: 120px;
     float: left;
     text-align: left;
-    padding-top:20px;
+    padding-top: 20px;
     padding-left: 5px;
 }
-.site-logo-favicon{
+
+.site-logo-favicon {
     width: 385px;
     background-color: #aaa;
-    margin:5px;
+    margin: 5px;
     height: 120px;
     float: left;
     text-align: left;
     overflow: hidden;
 }
-.site-logo-favicon-ayarlari{
+
+.site-logo-favicon-ayarlari {
     width: 185px;
     height: 120px;
     float: left;
     margin-left: 5px;
 }
 
-.site-logo-favicon-ayarlari > img{
+.area-talepler-edit {
+    width: 50px;
+}
+
+.area-talepler-edit>a>img {
     width: 100%;
     height: 100%;
 }
-.global-pages-input{
+
+.site-logo-favicon-ayarlari>img {
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-input {
     width: 385px;
     background-color: #aaa;
-    margin:5px;
+    margin: 5px;
     height: 40px;
     float: left;
     text-align: left;
 }
-.global-pages-input >  input[type="text"]{
+
+.global-pages-input>input[type="text"] {
     width: 100%;
     height: 100%;
 }
 
-.global-pages-input >  button[type="submit"]{
+.global-pages-input>button[type="submit"] {
     width: 100%;
     height: 100%;
 }
 
-.global-pages-input >  input[type="url"]{
+.global-pages-input>input[type="url"] {
     width: 100%;
     height: 100%;
 }
 
-.global-pages-div-right{
-    float:right;
+.global-pages-input>input[type="password"] {
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-input>input[type="mail"] {
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-div-right {
+    float: right;
     margin-right: 0px;
     margin-top: -20px;
     border: 1px solid #ccc;
-    width:100px;
-    height:38px;
+    width: 100px;
+    height: 38px;
     padding-left: 5px;
     padding-top: 20px;
     text-align: center;
-    
 }
 
-.global-pages-div-img{
-    float:right;
+.global-pages-div-img {
+    float: right;
     margin-right: 0px;
     margin-top: -20px;
     border: 1px solid #ccc;
-    width:100px;
-    height:58px;
+    width: 100px;
+    height: 58px;
 }
 
-.global-pages-div-img > a > img{
+.global-pages-div-img>a>img {
     width: 100%;
     height: 100%;
-    
 }
 
-.global-pages-div-img-kategori{
-    float:right;
+.global-pages-div-img-kategori {
+    float: right;
     margin-right: 0px;
     margin-top: -20px;
     border: 1px solid #ccc;
-    width:50px;
-    height:58px;
-}
-.global-pages-div-img-kategori > a > img{
-    width: 100%;
-    height: 100%;
-    
+    width: 50px;
+    height: 58px;
 }
 
-.center-text{
+.global-pages-div-img-kategori>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.global-pages-oval-image {
+    width: 200px;
+    background-color: #aaa;
+    margin: 0px auto;
+    height: 240px;
     text-align: center;
-    padding-top:200px
+    border-radius: 100%;
+    overflow: hidden;
 }
 
-.footer{
+.global-pages-oval-image>img {
+    width: 100%;
+    height: 100%;
+}
+
+.center-text {
+    text-align: center;
+    padding-top: 200px
+}
+
+.teknisyen-home-div {
+    width: 190px;
+    height: 140px;
+    background-color: #fff;
+    margin: 5px;
+    float: left;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.max-404-text {
+    font-size: 120px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.text-404 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.anasayfa-r-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.admin-left-menu {
+    float: left;
+    width: 250px;
+    height: 500px;
+    background-color: #fff;
+    border-right: 1px solid #ccc;
+}
+
+.admin-left-menu-item {
+    border: 1px solid #ccc;
+    height: 50px;
+}
+
+.admin-left-area {
+    float: left;
+    background-color: #fff;
+    width: 344px;
+    height: 495px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.footer {
     bottom: 0;
     height: 25px;
     background-color: #4d4d4d;
@@ -451,51 +574,53 @@ a:active {
     color: #fff;
 }
 
+
 /* header menu */
+
 .nav ul {
     list-style: none;
     background-color: #444;
     text-align: center;
     padding: 0;
     margin: 0;
-  }
-  .nav li {
+}
+
+.nav li {
     font-family: 'Oswald', sans-serif;
     font-size: 1.2em;
     border-bottom: 1px solid #888;
     width: 150px;
-  }
-   
-  .nav a {
+}
+
+.nav a {
     text-decoration: none;
     color: #fff;
     display: block;
     transition: .3s background-color;
-  }
-   
-  .nav a:hover {
+}
+
+.nav a:hover {
     background-color: #005f5f;
-  }
-   
-  .nav a.active {
+}
+
+.nav a.active {
     background-color: #fff;
     color: #444;
     cursor: default;
-  }
-  @media screen and (min-width: 600px) {
+}
+
+@media screen and (min-width: 600px) {
     .nav li {
-      width: 270px;
-      border-bottom: none;
-      height: 50px;
-      line-height: 50px;
-      font-size: 1.4em;
+        width: 270px;
+        border-bottom: none;
+        height: 50px;
+        line-height: 50px;
+        font-size: 1.4em;
     }
-   
     /* Option 1 - Display Inline */
     .nav li {
-      display: inline-block;
+        display: inline-block;
     }
-   
     /* Options 2 - Float
     .nav li {
       float: left;
@@ -509,5 +634,7 @@ a:active {
       background-color: #444;
     }
     */
-  }
-  /* header menü */
+}
+
+
+/* header menü */
